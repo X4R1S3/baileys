@@ -4,16 +4,16 @@
 
 ### **The intelligent interactive and productivity layer for WhatsApp protocols.**
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&pause=1200&color=00FFF0&center=true&vCenter=true&width=900&height=70&repeat=true&lines=BAILEYS+PROTOCOL.;NODE.JS+%2B+TYPESCRIPT.;RICH+MESSAGES+%2B+MEDIA.;BUILD+RELIABLE+INTEGRATIONS." alt="X4R1S3 TECHNOLOGY Baileys animated keywords" />
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=22&pause=1200&color=00FFF0&center=true&vCenter=true&width=900&height=70&repeat=true&lines=BAILEYS+PROTOCOL.;NODE.JS+%2B+TYPESCRIPT.;RICH+MESSAGES+%2B+MEDIA.;BUILD+RELIABLE+INTEGRATIONS." alt="CodexVerified Baileys animated keywords" />
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="16" width="88%" alt="animated coloured divider" />
 
-<img src="https://raw.githubusercontent.com/X4R1S3 TECHNOLOGY/X4R1S3-AI/main/assets/rolling-circle.svg" width="90" alt="X4R1S3 TECHNOLOGY rolling circle" />
+<img src="https://raw.githubusercontent.com/codexverified/CODEX-AI/main/assets/rolling-circle.svg" width="90" alt="CodexVerified rolling circle" />
 
-[![Version](https://img.shields.io/badge/version-2.20.1-00FFF0?style=for-the-badge&labelColor=07111F)](https://www.npmjs.com/package/@x4r1s3/baileys)
+[![Version](https://img.shields.io/badge/version-2.20.1-00FFF0?style=for-the-badge&labelColor=07111F)](https://www.npmjs.com/package/@codexverified/baileys)
 [![Developer X4R1S3](https://img.shields.io/badge/Developer-X4R1S3-B88CFF?style=for-the-badge&logo=telegram&labelColor=07111F)](https://t.me/X4R1S3)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-7CFFB2?style=for-the-badge&logo=node.js&logoColor=white&labelColor=07111F)](https://nodejs.org/)
-[![Powered by X4R1S3/baileys](https://img.shields.io/badge/powered%20by-X4R1S3 TECHNOLOGY%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=07111F)](https://www.npmjs.com/package/@x4r1s3/baileys)
+[![Powered by codexverified/baileys](https://img.shields.io/badge/powered%20by-codexverified%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=07111F)](https://www.npmjs.com/package/@codexverified/baileys)
 [![License](https://img.shields.io/badge/license-MIT-B88CFF?style=for-the-badge&labelColor=07111F)](#license-and-maintenance)
 
 </div>
@@ -23,17 +23,17 @@
 [![Main WhatsApp Channel](https://img.shields.io/badge/WhatsApp%20Channel-Follow-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb78BHmL2AU7fsANSH2y)
 [![Backup WhatsApp Channel](https://img.shields.io/badge/Backup%20Channel-Follow-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb6sMEy96H4VI2w3I50F)
 [![Support Group](https://img.shields.io/badge/Support%20Group-Join-25D366?style=for-the-badge&logo=whatsapp)](https://chat.whatsapp.com/L5gckU4nNCq3bTH45tLB37?s=cl&p=a&iam=2)
-[![Telegram Channel](https://img.shields.io/badge/Telegram%20Channel-Join-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/X4R1S3_INNOVATION)
-[![Telegram Group](https://img.shields.io/badge/Telegram%20Group-Join-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/X4R1S3V3)
-[![Website](https://img.shields.io/badge/Website-Visit-00FFF0?style=for-the-badge&logo=vercel&logoColor=black)](https://X4R1S3-ai.site)
+[![Telegram Channel](https://img.shields.io/badge/Telegram%20Channel-Join-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/X61952_INNOVATION)
+[![Telegram Group](https://img.shields.io/badge/Telegram%20Group-Join-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/CODEXV3)
+[![Website](https://img.shields.io/badge/Website-Visit-00FFF0?style=for-the-badge&logo=vercel&logoColor=black)](https://codex-ai.site)
 
 </div>
 
-> A readable, carefully maintained Baileys distribution for building reliable WhatsApp integrations. built by X4R1S3 populary known as X4R1S3 
+> A readable, carefully maintained Baileys distribution for building reliable WhatsApp integrations. built by X61952 populary known as codex 
 
-`@x4r1s3/baileys` is a Node.js and TypeScript library for creating WhatsApp automations over the Baileys protocol. It provides a socket-oriented API for authentication, messaging, media, interactive content, rich responses, newsletters, groups, communities, business features, account utilities, and carefully documented extensions.
+`@codexverified/baileys` is a Node.js and TypeScript library for creating WhatsApp automations over the Baileys protocol. It provides a socket-oriented API for authentication, messaging, media, interactive content, rich responses, newsletters, groups, communities, business features, account utilities, and carefully documented extensions.
 
-The package is maintained by **X4R1S3** under the **X4R1S3 TECHNOLOGY** organization. It is intended for developers who want a practical Baileys foundation with familiar interfaces, public TypeScript declarations, readable source code, explicit behavior, and room for carefully tested improvements.
+The package is maintained by **X61952** under the **CodexVerified** organization. It is intended for developers who want a practical Baileys foundation with familiar interfaces, public TypeScript declarations, readable source code, explicit behavior, and room for carefully tested improvements.
 
 ## Table of contents
 
@@ -48,7 +48,7 @@ The package is maintained by **X4R1S3** under the **X4R1S3 TECHNOLOGY** organiza
 - [Authentication and deployment guidance](#authentication-and-deployment-guidance)
 - [Development workflow](#development-workflow)
 - [Recent compatibility updates](#recent-compatibility-updates)
-- [About X4R1S3](#about-X4R1S3)
+- [About X61952](#about-x61952)
 - [Package layout](#package-layout)
 - [Security and responsible use](#security-and-responsible-use)
 - [Disclaimer](#disclaimer)
@@ -64,29 +64,29 @@ The package is maintained by **X4R1S3** under the **X4R1S3 TECHNOLOGY** organiza
 
 | Property | Value |
 | --- | --- |
-| Package | `@x4r1s3/baileys` |
+| Package | `@codexverified/baileys` |
 | Version | `2.20.1` |
 | Runtime | Node.js 20 or newer |
 | Module format | ESM, with CommonJS compatibility where supported |
 | Type declarations | Included at `lib/index.d.ts` |
 | License | MIT, as declared by the package metadata |
-| Author | X4R1S3 |
-| Maintainer | X4R1S3 |
+| Author | X61952 |
+| Maintainer | X61952 |
 | Entry point | `lib/index.js` |
-| Repository | `https://github.com/X4R1S3/baileys` |
+| Repository | `https://github.com/X61952/baileys` |
 
 ## Installation
 
 | Method | Command | Notes |
 | --- | --- | --- |
-| From npm | `npm install @x4r1s3/baileys` | Standard install when published under your organization |
-| From local archive | `npm install ./X4R1S3-baileys-2.20.1.tgz` | Place the `.tgz` beside your application |
+| From npm | `npm install @codexverified/baileys` | Standard install when published under your organization |
+| From local archive | `npm install ./codex-baileys-2.20.1.tgz` | Place the `.tgz` beside your application |
 | Source audit (no scripts) | `npm install --ignore-scripts` | Skips install hooks for local review |
 
 Both npm and archive installs use the same import name:
 
 ```javascript
-import { makeWASocket } from '@x4r1s3/baileys'
+import { makeWASocket } from '@codexverified/baileys'
 ```
 
 ## Quick start
@@ -98,7 +98,7 @@ import {
   DisconnectReason,
   makeWASocket,
   useMultiFileAuthState
-} from '@x4r1s3/baileys'
+} from '@codexverified/baileys'
 import P from 'pino'
 
 async function start() {
@@ -113,7 +113,7 @@ async function start() {
 
   sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
     if (connection === 'open') {
-      console.log('Connected with @x4r1s3/baileys')
+      console.log('Connected with @codexverified/baileys')
     }
 
     if (connection === 'close') {
@@ -129,7 +129,7 @@ async function start() {
       if (!message.message || message.key.fromMe) continue
 
       await sock.sendMessage(message.key.remoteJid, {
-        text: 'Hello from @x4r1s3/baileys'
+        text: 'Hello from @codexverified/baileys'
       })
     }
   })
@@ -157,7 +157,7 @@ sock.ev.on('messages.upsert', async ({ messages }) => {
     const groupJid = '120363000000000000@g.us'
     const voterJid = userJid
     const commandName = 'menu'
-    const commandOutput = 'X4R1S3 command completed'
+    const commandOutput = 'Codex command completed'
     const messageId = message.key.id
 
     // Sticker annotation expects a sticker media payload, not an undefined variable.
@@ -176,7 +176,7 @@ For a standalone command that is not handling an incoming message, define `jid` 
 
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
-await sock.sendMessage(jid, { text: 'Hello from X4R1S3' })
+await sock.sendMessage(jid, { text: 'Hello from Codex' })
 ```
 
 Do not call a helper with an undeclared variable such as `sock.sendMessage(jid, ...)` before defining `jid`. Replace the example JIDs with real authorized user or group JIDs.
@@ -187,7 +187,7 @@ Do not call a helper with an undeclared variable such as `sock.sendMessage(jid, 
 const {
   makeWASocket,
   useMultiFileAuthState
-} = require('@x4r1s3/baileys')
+} = require('@codexverified/baileys')
 ```
 
 If your runtime or bundler does not support this interop path, use the ESM import form instead.
@@ -221,7 +221,7 @@ If your runtime or bundler does not support this interop path, use the ESM impor
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendMessage(jid, {
-  text: 'A message from X4R1S3'
+  text: 'A message from Codex'
 })
 
 await sock.sendMessage(jid, {
@@ -268,7 +268,7 @@ The existing `viewOnce`, `viewOnceV2`, `viewOnceV2Extension`, and `spoiler` opti
 const jid = '15551234567@s.whatsapp.net'
 await sock.richMenu(jid, {
   header: {
-    title: 'X4R1S3 Menu',
+    title: 'Codex Menu',
     image: {
       url: 'https://example.com/menu.jpg',
       mime_type: 'image/jpeg'
@@ -292,7 +292,7 @@ await sock.richMenu(jid, {
     ]
   },
   footer: {
-    text: 'X4R1S3 TECHNOLOGY',
+    text: 'Codex Technology',
     url: 'https://example.com'
   }
 })
@@ -316,7 +316,7 @@ await sock.richMenu(jid, {
 
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
-await sock.sendStatus({ text: 'New X4R1S3 status' }, {
+await sock.sendStatus({ text: 'New Codex status' }, {
   statusJidList: ['1234567890@s.whatsapp.net']
 })
 
@@ -378,16 +378,16 @@ Before submitting changes, validate ESM syntax, CommonJS compatibility where app
 | View-once preserved | Explicit view-once implementations remain unchanged |
 | `mediaSpoilerMode` | New opt-in path for a view-once envelope or native spoiler flag, without altering existing defaults |
 
-## About X4R1S3
+## About X61952
 
-This package is built and maintained by **X4R1S3**. X4R1S3 is a developer populary known as X4R1S3 that is focused on practical, accessible, and reliable software projects across the JavaScript and TypeScript ecosystem, with a focus on cyber security and responsible full stack and software engineering.
+This package is built and maintained by **X61952**. X61952 is a developer populary known as codex that is focused on practical, accessible, and reliable software projects across the JavaScript and TypeScript ecosystem, with a focus on cyber security and responsible full stack and software engineering.
 
 | | |
 | --- | --- |
 | Tech stack | JavaScript, HTML, TypeScript, Node.js, GitHub, Baileys, APIs, key-value stores |
 | Project types | Application development, websites, WhatsApp bots, Telegram bots, API endpoints, games |
 | Telegram | [@X4R1S3](https://t.me/X4R1S3) |
-| Email | X4R1S3authorized@gmail.com |
+| Email | codexauthorized@gmail.com |
 
 The developer's work is driven by a commitment to learning, experimentation, clear documentation, and useful software that developers can understand and extend. This package reflects that commitment through its readable source, public declarations, practical examples, and emphasis on responsible automation.
 
@@ -417,7 +417,7 @@ This library interacts with WhatsApp accounts and user communications.
 
 ## Disclaimer
 
-`@x4r1s3/baileys` is an independent, source-available Node.js library that communicates with WhatsApp using the Baileys protocol. It is not affiliated with, endorsed by, or officially connected to WhatsApp LLC or Meta Platforms, Inc. "WhatsApp" is a trademark of its respective owner, referenced here only for interoperability description.
+`@codexverified/baileys` is an independent, source-available Node.js library that communicates with WhatsApp using the Baileys protocol. It is not affiliated with, endorsed by, or officially connected to WhatsApp LLC or Meta Platforms, Inc. "WhatsApp" is a trademark of its respective owner, referenced here only for interoperability description.
 
 **No malware, no phishing, no hidden network calls.** As a matter of project policy and design:
 
@@ -425,7 +425,7 @@ This library interacts with WhatsApp accounts and user communications.
 | --- | --- |
 | No malicious payloads | The package does not contain, download, execute, or otherwise support malware, spyware, ransomware, keyloggers, or similar malicious code. |
 | No phishing or credential harvesting | The library does not construct, send, or facilitate phishing messages, fake login prompts, or credential-harvesting flows. It provides generic messaging primitives; how an application built on top of them is used is the responsibility of that application's developer. |
-| No covert data exfiltration | The package does not silently transmit your messages, contacts, media, or authentication state to X4R1S3, X4R1S3 TECHNOLOGY, or any third party. The only network calls it makes are the ones necessary to connect to WhatsApp's own servers, plus explicitly caller-invoked helpers (such as `checkStatusWA`) that are never triggered automatically. |
+| No covert data exfiltration | The package does not silently transmit your messages, contacts, media, or authentication state to Codex, CodexVerified, or any third party. The only network calls it makes are the ones necessary to connect to WhatsApp's own servers, plus explicitly caller-invoked helpers (such as `checkStatusWA`) that are never triggered automatically. |
 | No obfuscated code | The source is distributed as readable JavaScript/TypeScript with public type declarations, so it can be inspected line by line. Installs can be run with `--ignore-scripts` for an audit-first review, as noted in the [Installation](#installation) table. |
 | Not a guarantee, an invitation to verify | This statement describes the project's design intent and current source code. It is not a substitute for your own review, a third-party security audit, or a legal warranty. You are encouraged to read the source, pin dependency versions, and review any application built on top of this package before deploying it. |
 
@@ -441,9 +441,9 @@ This package gives developers general-purpose building blocks for WhatsApp autom
 | Impersonating WhatsApp, Meta, or another party; phishing; credential harvesting | Deceives end users and is illegal in most jurisdictions |
 | Evading WhatsApp's account-integrity enforcement, terms of service, or rate limits | Undermines platform trust and the safety of the messaging ecosystem for everyone |
 
-**Where responsibility sits.** X4R1S3 TECHNOLOGY builds and documents the library itself, not the applications developers build with it. If a developer chooses to use this package to do any of the above, **that developer — not X4R1S3 TECHNOLOGY or the `@x4r1s3/baileys` project — is solely responsible for that conduct**, including any legal, financial, or platform consequences that follow from it. The maintainers do not operate, monitor, or have visibility into third-party deployments of this code, and inclusion of a feature in this library is not an endorsement of every way it could be used.
+**Where responsibility sits.** CodexVerified builds and documents the library itself, not the applications developers build with it. If a developer chooses to use this package to do any of the above, **that developer — not CodexVerified or the `@codexverified/baileys` project — is solely responsible for that conduct**, including any legal, financial, or platform consequences that follow from it. The maintainers do not operate, monitor, or have visibility into third-party deployments of this code, and inclusion of a feature in this library is not an endorsement of every way it could be used.
 
-This project's own position is the opposite of the misuse above: X4R1S3 TECHNOLOGY is built around respecting user privacy and giving developers transparent, inspectable tools — not around helping anyone spam, deceive, or manipulate WhatsApp users. Developers who build on this package are expected to hold themselves to that same standard.
+This project's own position is the opposite of the misuse above: CodexVerified is built around respecting user privacy and giving developers transparent, inspectable tools — not around helping anyone spam, deceive, or manipulate WhatsApp users. Developers who build on this package are expected to hold themselves to that same standard.
 
 **No warranty.** This software is provided "as is," without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement, to the fullest extent permitted by the license declared in `package.json`. Use of this package to interact with WhatsApp may be subject to WhatsApp's own terms of service, which are outside the maintainers' control.
 
@@ -456,27 +456,27 @@ This section describes what the package itself does and does not do with data. I
 | Data type | How it's handled |
 | --- | --- |
 | Authentication/session state | Generated and stored wherever your application configures it (e.g. `useMultiFileAuthState('./session')`). The package does not upload this elsewhere. Keep it private, as noted in [Security and responsible use](#security-and-responsible-use). |
-| Messages and media | Sent to and received from WhatsApp's own servers as part of normal protocol operation. The package does not copy, log, or relay this content to X4R1S3, X4R1S3 TECHNOLOGY, or any other third party. |
+| Messages and media | Sent to and received from WhatsApp's own servers as part of normal protocol operation. The package does not copy, log, or relay this content to Codex, CodexVerified, or any other third party. |
 | Phone numbers passed to optional helpers | `checkStatusWA` sends a phone number to whatever endpoint you configure for that call. This only happens if your code explicitly calls it; the destination and its own privacy practices are your responsibility to review before use. |
 
 **What the package does not do:**
-- It does not phone home, run analytics/telemetry, or transmit usage data to X4R1S3, X4R1S3 TECHNOLOGY, or any other party.
+- It does not phone home, run analytics/telemetry, or transmit usage data to Codex, CodexVerified, or any other party.
 - It does not embed hidden credentials, tracking identifiers, or remote "kill switches."
 - It does not access data outside of what your application explicitly wires it up to.
 
 **Your responsibilities as a developer.** If you build an application on top of this package that collects personal data (e.g. contacts, message content, phone numbers), you are the data controller for that application and are responsible for complying with applicable privacy laws (such as GDPR, CCPA, or Nigeria's NDPA) and with WhatsApp's own terms and business policies. This package is a communication toolkit, not a compliance framework.
 
-**Contact.** Questions about this policy or the project can be sent to X4R1S3authorized@gmail.com or via [@X4R1S3](https://t.me/X4R1S3) on Telegram.
+**Contact.** Questions about this policy or the project can be sent to codexauthorized@gmail.com or via [@X4R1S3](https://t.me/X4R1S3) on Telegram.
 
 ## License and maintenance
 
 This distribution is provided under the license declared in `package.json` and the accompanying license file. Review those terms before redistributing or combining this package with third-party code.
 
-**@x4r1s3/baileys is built and maintained by X4R1S3 under the X4R1S3 TECHNOLOGY organization.** Contributions, bug reports, and carefully documented improvements are welcome through the project repository.
+**@codexverified/baileys is built and maintained by X61952 under the CodexVerified organization.** Contributions, bug reports, and carefully documented improvements are welcome through the project repository.
 
 ## Compatibility additions
 
-The current source includes several independently implemented compatibility helpers identified during comparison with the published upstream package. These additions preserve the X4R1S3 package identity and do not copy package-specific attribution enforcement or remote licensing checks.
+The current source includes several independently implemented compatibility helpers identified during comparison with the published upstream package. These additions preserve the Codex package identity and do not copy package-specific attribution enforcement or remote licensing checks.
 
 ### Copy-to-clipboard rich response
 
@@ -491,7 +491,7 @@ The current source includes several independently implemented compatibility help
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendCopyButton(jid, {
-  text: 'npm install @x4r1s3/baileys',
+  text: 'npm install @codexverified/baileys',
   label: 'Copy install command',
   alignment: 'END'
 })
@@ -509,10 +509,10 @@ As with other private or experimental WhatsApp rich-response layouts, clients ma
 | `startingCredits` | Initial credit balance |
 
 ```javascript
-import { generateSlotMachineHtml } from '@x4r1s3/baileys'
+import { generateSlotMachineHtml } from '@codexverified/baileys'
 
 const html = generateSlotMachineHtml({
-  title: 'X4R1S3 Fruit Bonanza',
+  title: 'Codex Fruit Bonanza',
   startingCredits: 500
 })
 ```
@@ -524,7 +524,7 @@ The generator does not by itself send HTML through WhatsApp. Applications should
 `checkStatusWA` is an explicit, caller-invoked diagnostic helper. It is never called during installation, socket creation, reconnection, or message sending. The endpoint is configurable, credentials are not embedded, and callers should review the endpoint's terms and privacy implications before sending a phone number.
 
 ```javascript
-import { checkStatusWA } from '@x4r1s3/baileys'
+import { checkStatusWA } from '@codexverified/baileys'
 
 const result = await checkStatusWA('+447700900123', {
   diagnostic: true
@@ -545,7 +545,7 @@ This helper is not an anti-ban guarantee, does not bypass enforcement, and shoul
 
 ## Comparison references
 
-The feature comparison was based on the published package metadata and documentation available from [npm][1] and the independent package analysis page at [Socket][2]. The X4R1S3 implementation adds compatible behavior through readable, package-owned code rather than copying upstream-specific integrity, attribution, or remote-verification mechanisms.
+The feature comparison was based on the published package metadata and documentation available from [npm][1] and the independent package analysis page at [Socket][2]. The Codex implementation adds compatible behavior through readable, package-owned code rather than copying upstream-specific integrity, attribution, or remote-verification mechanisms.
 
 [1]: https://www.npmjs.com/
 [2]: https://socket.dev/
@@ -580,9 +580,9 @@ All networked helpers are opt-in. Website previews fetch only when explicitly ca
 | `mediaUrl` | URL of the generated media
 
 
-## X4R1S3-compatible rich messaging additions
+## CODEX-compatible rich messaging additions
 
-The X4R1S3 socket now includes the compatible rich-message helpers documented by [`X4R1S3`](https://github.com/X4R1S3/baileys), while retaining X4R1S3-specific APIs and package identity. These helpers are opt-in convenience methods over the existing WhatsApp message relay layer.
+The Codex socket now includes the compatible rich-message helpers documented by [`CODEX`](https://github.com/codexverified/baileys), while retaining Codex-specific APIs and package identity. These helpers are opt-in convenience methods over the existing WhatsApp message relay layer.
 
 | Helper | Purpose |
 | --- | --- |
@@ -602,7 +602,7 @@ The X4R1S3 socket now includes the compatible rich-message helpers documented by
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendRichText(jid, {
-  text: 'A rich response from X4R1S3'
+  text: 'A rich response from Codex'
 })
 
 await sock.sendRichImage(jid, {
@@ -678,12 +678,12 @@ These helpers preserve the existing `quoted` and send-option arguments where sup
 
 ### References
 
-[1]: https://github.com/X4R1S3/baileys "X4R1S3/baileys repository"
+[1]: https://github.com/codexverified/baileys "codexverified/baileys repository"
 
 
 ### Prepared-message relay targeting
 
-`relayMessage` now accepts optional delivery-scoping controls compatible with X4R1S3’s relay API. These controls are intended for prepared messages and retry handling; use them only when the application understands the device-level delivery consequences.
+`relayMessage` now accepts optional delivery-scoping controls compatible with CODEX’s relay API. These controls are intended for prepared messages and retry handling; use them only when the application understands the device-level delivery consequences.
 
 ```javascript
 const jid = '15551234567@s.whatsapp.net'
@@ -725,8 +725,8 @@ await sock.sendAlbumMessage(jid, [
 ```ts
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendRichTextCopy(jid, {
-  text: '**Install command**\n\nnpm install @x4r1s3/baileys',
-  copyText: 'npm install @x4r1s3/baileys',
+  text: '**Install command**\n\nnpm install @codexverified/baileys',
+  copyText: 'npm install @codexverified/baileys',
   copyLabel: 'Copy command'
 })
 
@@ -761,7 +761,7 @@ await sock.sendAlbumMessage(jid, [
   { image: { url: 'https://example.com/one.jpg' } },
   { image: { url: 'https://example.com/two.jpg' } },
   { image: { url: 'https://example.com/three.jpg' } }
-], { caption: 'X4R1S3 album' })
+], { caption: 'Codex album' })
 ```
 
 The rich album path is URL-based and does not upload local buffers. Remove accidental whitespace from URLs before sending; the implementation trims URL values, but clean URLs are recommended.
@@ -789,13 +789,13 @@ await sock.sendA2UICommandMenu(jid, {
 
 ### AIRich command menu and video grid
 
-The compatibility update also exposes the two AIRich layouts that were not already present in X4R1S3. `sendAIRichCommandMenu` sends the manually serialized command card with an image, Markdown command table, optional widget CTAs, and footer URL actions. The image must be a publicly fetchable URL.
+The compatibility update also exposes the two AIRich layouts that were not already present in Codex. `sendAIRichCommandMenu` sends the manually serialized command card with an image, Markdown command table, optional widget CTAs, and footer URL actions. The image must be a publicly fetchable URL.
 
 ```ts
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendAIRichCommandMenu(jid, {
   image: 'https://example.com/menu.png',
-  title: 'X4R1S3',
+  title: 'CODEX AI',
   subtitle: 'Choose a command',
   rows: [
     ['.menu', 'Show the main menu'],
@@ -804,7 +804,7 @@ await sock.sendAIRichCommandMenu(jid, {
   buttons: [
     { id: 'docs', text: 'Documentation', url: 'https://example.com/docs' }
   ],
-  footer: 'Developed by - X4R1S3 TECHNOLOGY'
+  footer: 'Developed by - CODEX TECHNOLOGY'
 })
 ```
 
@@ -875,7 +875,7 @@ await sock.sendCarousel(jid, [
 ])
 ```
 
-`HoldOn` is retained as a compatibility alias for `sendRichButtonGrid`. New applications should prefer the descriptive X4R1S3-named method.
+`HoldOn` is retained as a compatibility alias for `sendRichButtonGrid`. New applications should prefer the descriptive Codex-named method.
 
 `grepCode(pattern, options)` searches installed package source files and returns matching file, line, column, and source-line information. It is an explicit diagnostic helper and performs no network access.
 
@@ -890,29 +890,29 @@ The compatibility update also exposes `sendRichHtmlMessage`, which uses the inte
 ```ts
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendRichHtmlMessage(jid, {
-  title: 'X4R1S3 TECHNOLOGY',
+  title: 'CODEX TECHNOLOGY',
   html: '<h1>Hello</hi>',
-  url: 'https://X4R1S3-ai.site',
-  trustedSources: ['X4R1S3-ai.site']
+  url: 'https://codex-ai.site',
+  trustedSources: ['codex-ai.site']
 })
 ```
 
 Multiple tabs can be supplied with `tabs`; each tab may provide its own `html`, `url`, and `trustedSources`. The structure is experimental and depends on WhatsApp client support.
 
 
-## X4R1S3 unified responses and the built-in mini-app
+## Codex unified responses and the built-in mini-app
 
-`sendX4R1S3Message` accepts one object containing any supported combination of text, links, media, products, reels, tables, code, LaTeX, or suggestions. Unsupported optional sections are ignored by the rich-response serializer, so callers can use one stable entry point for heterogeneous response data.
+`sendCodexMessage` accepts one object containing any supported combination of text, links, media, products, reels, tables, code, LaTeX, or suggestions. Unsupported optional sections are ignored by the rich-response serializer, so callers can use one stable entry point for heterogeneous response data.
 
 ```js
 const jid = '15551234567@s.whatsapp.net'
-await sock.sendX4R1S3Message(jid, {
+await sock.sendCodexMessage(jid, {
   text: 'Here is your result',
   links: [{ text: 'Open the docs', url: 'https://example.com/docs' }],
   table: {
     title: 'Summary',
     headers: ['Name', 'Status'],
-    rows: [['X4R1S3', 'Ready']]
+    rows: [['Codex', 'Ready']]
   }
 })
 ```
@@ -922,7 +922,7 @@ await sock.sendX4R1S3Message(jid, {
 ```js
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendMiniApp(jid, {
-  title: 'X4R1S3 mini-app'
+  title: 'Codex mini-app'
 }, {
   quoted: message
 })
@@ -1042,11 +1042,11 @@ At least two options are required, and image polls require the configured Bailey
 
 ### Complete compatibility feature inventory
 
-This build includes the complete published `X4R1S3` compatibility surface: authentication and pairing; text, mentions, reactions, edits, deletes, forwards, polls, events, view-once messages, stickers, sticker packs, sticker annotations, albums, live photos, video grids, GIF playback, buttons, reminder actions, lists, native flows, carousels, hydrated templates, interactive contacts, map/location cards, rich text, Markdown quotes, copy actions, rich images, link previews, unified responses, tables, code blocks, LaTeX, AIRich, A2UI, rich menus, reels, HTML screens, mini-apps, status updates, status actions, status mentions, custom status audiences, group status, newsletter/channel management, group and community management, labels, business and catalog helpers, favorites, privacy controls, usernames, password and passkey utilities, AI groups, Meta AI prompts, planning metadata, social/profile cards, bot diagnostics, media processing, app-state utilities, interop helpers, and the `X4R1S3` target-message helper.
+This build includes the complete published `codex` compatibility surface: authentication and pairing; text, mentions, reactions, edits, deletes, forwards, polls, events, view-once messages, stickers, sticker packs, sticker annotations, albums, live photos, video grids, GIF playback, buttons, reminder actions, lists, native flows, carousels, hydrated templates, interactive contacts, map/location cards, rich text, Markdown quotes, copy actions, rich images, link previews, unified responses, tables, code blocks, LaTeX, AIRich, A2UI, rich menus, reels, HTML screens, mini-apps, status updates, status actions, status mentions, custom status audiences, group status, newsletter/channel management, group and community management, labels, business and catalog helpers, favorites, privacy controls, usernames, password and passkey utilities, AI groups, Meta AI prompts, planning metadata, social/profile cards, bot diagnostics, media processing, app-state utilities, interop helpers, and the `X61952` target-message helper.
 
 Representative usage is documented below for sticker annotations, unified responses, A2UI command menus, image polls, live photos, social cards, reactions, stickers, scheduled messages, and profile-picture lookup.
 
-## X4R1S3-compatible additions
+## Codex-compatible additions
 
 The complete build also includes the compatible A2UI, AIRich, carousel, poll, live-photo, unified-response, newsletter-status, and sticker-annotation helpers. These are opt-in APIs over the existing socket and do not change ordinary `sendMessage()` behavior.
 
@@ -1055,7 +1055,7 @@ The complete build also includes the compatible A2UI, AIRich, carousel, poll, li
 The `Button` builder now supports native reminder actions. The display text and reminder ID are written into the native-flow payload, while additional provider-specific fields can be supplied through the options object.
 
 ```js
-import { Button } from '@x4r1s3/baileys'
+import { Button } from '@codexverified/baileys'
 
 const jid = '15551234567@s.whatsapp.net'
 const reminderCard = new Button(sock)
@@ -1079,7 +1079,7 @@ const requestMessageKey = {
   id: 'REQUEST_MESSAGE_ID'
 }
 
-await sock.sendX4R1S3Message(jid, {
+await sock.sendCodexMessage(jid, {
   contentText: 'Reminder created.',
   reminderMetadata: {
     requestMessageKey,
@@ -1188,12 +1188,12 @@ The package supports authorized profile-picture lookup with `profilePictureUrl(j
 ```js
 const jid = '15551234567@s.whatsapp.net'
 const commandName = 'menu'
-const commandOutput = 'X4R1S3 command completed'
+const commandOutput = 'Codex command completed'
 
 await sock.sendInteractiveContactCard(jid, {
-  title: 'X4R1S3',
+  title: 'Codex AI',
   body: commandOutput,
-  footer: 'X4R1S3 TECHNOLOGY',
+  footer: 'Codex Technology',
   buttonParams: {
     command: commandName,
     status: 'completed'
@@ -1201,14 +1201,14 @@ await sock.sendInteractiveContactCard(jid, {
 })
 ```
 
-## X4R1S3 target-message protocol helper
+## X61952 target-message protocol helper
 
-`X4R1S3(jid, target)` runs the experimental target-message protocol sequence, then cleans up its temporary messages. The target may be a message ID string or an object containing `id` or `stanzaId`.
+`X61952(jid, target)` runs the experimental target-message protocol sequence, then cleans up its temporary messages. The target may be a message ID string or an object containing `id` or `stanzaId`.
 
 ```js
 const jid = '15551234567@s.whatsapp.net'
 const messageId = 'MESSAGE_ID_FROM_WHATSAPP'
-await sock.X4R1S3(jid, { id: messageId })
+await sock.X61952(jid, { id: messageId })
 ```
 
 <div align="center">
@@ -1219,6 +1219,6 @@ await sock.X4R1S3(jid, { id: messageId })
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00FFF0&height=100&section=footer" alt="@x4r1s3/baileys footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00FFF0&height=100&section=footer" alt="@codexverified/baileys footer" />
 
 </div>

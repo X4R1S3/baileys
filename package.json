@@ -1,6 +1,6 @@
 {
   "name": "@x4r1s3/baileys",
-  "version": "2.20.1",
+  "version": "1.0.0",
   "description": "X4R1S3 TECHNOLOGY premium Baileys distribution by X4R1S3 and for X4R1S3 TECHNOLOGY INNOVATIONS, X4R1S3, X4R1S3 TECHNOLOGY, and X4R1S3, with rich messages, security utilities, and tested protocol extensions.",
   "main": "lib/index.js",
   "type": "module",
