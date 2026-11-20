@@ -795,7 +795,7 @@ The compatibility update also exposes the two AIRich layouts that were not alrea
 const jid = '15551234567@s.whatsapp.net'
 await sock.sendAIRichCommandMenu(jid, {
   image: 'https://example.com/menu.png',
-  title: 'X4R1S3 AI',
+  title: 'X4R1S3',
   subtitle: 'Choose a command',
   rows: [
     ['.menu', 'Show the main menu'],
@@ -1191,7 +1191,7 @@ const commandName = 'menu'
 const commandOutput = 'X4R1S3 command completed'
 
 await sock.sendInteractiveContactCard(jid, {
-  title: 'X4R1S3 AI',
+  title: 'X4R1S3',
   body: commandOutput,
   footer: 'X4R1S3 TECHNOLOGY',
   buttonParams: {
