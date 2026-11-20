@@ -645,6 +645,25 @@ export interface RichMediaMessageContent extends Record<string, unknown> {
     trustedSources?: string[];
     verificationMetadata?: Record<string, unknown>;
 }
+export interface RichAIResponseSection extends Record<string, unknown> {
+    type: 'table' | 'list' | 'codeBlock' | 'latex' | 'plain' | 'text' | 'gridImage' | 'inlineImage' | 'dynamic' | 'map' | 'contentItems';
+    value?: unknown;
+    options?: Record<string, unknown>;
+}
+export interface RichAIResponseContent extends Record<string, unknown> {
+    sections?: RichAIResponseSection[];
+    table?: X4R1S3TableInput;
+    list?: { title?: string; items: unknown[]; [key: string]: unknown };
+    codeBlock?: { code?: string; language?: string; [key: string]: unknown };
+    latex?: string | Record<string, unknown>;
+    plain?: string | Record<string, unknown>;
+    text?: string | Record<string, unknown>;
+    gridImage?: unknown;
+    inlineImage?: unknown;
+    dynamic?: unknown;
+    map?: unknown;
+    contentItems?: unknown;
+}
 export interface X4R1S3MessageContent extends Record<string, unknown> {
     /** Exclusive A2UI mode routed to sendA2UIMessage; do not combine with AIRich sections. */
     a2ui?: A2UIMessageContent;
@@ -897,6 +916,8 @@ export interface WASocket {
     sendBotPlanning(jid: string, content?: { text?: string; steps?: Array<string | { title?: string; name?: string; body?: string }>; queryPlan?: boolean; botJid?: string }, options?: Record<string, unknown>): Promise<unknown>;
     /** Send a rich response with experimental resolved tool-call metadata. */
     sendBotToolResult(jid: string, content?: { text?: string; toolCallId?: string; resolutionData?: unknown; resolutionDataSerialized?: string; botJid?: string }, options?: Record<string, unknown>): Promise<unknown>;
+    /** Send one ordered RichAI response with tables, lists, code, LaTeX, images, maps, and carousels. */
+    sendRichAIResponse(jid: string, content: RichAIResponseContent, quoted?: unknown, options?: Record<string, unknown>): Promise<unknown>;
     /** Send one tolerant AIRich response, including simple or rich-preview tables in caller order. */
     sendX4R1S3Message(jid: string, content?: X4R1S3MessageContent, quoted?: unknown, options?: Record<string, unknown>): Promise<unknown>;
     /** Send a tabbed AIRich mini-app with native image/video media and optional HTML sections. */
