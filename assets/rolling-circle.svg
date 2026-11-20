@@ -1,0 +1,192 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="title desc">
+  <title id="title">Astralena orbital shuttle</title>
+  <desc id="desc">A luminous spacecraft travels around a futuristic orbital core in a deep-space nebula.</desc>
+
+  <defs>
+    <radialGradient id="space" cx="50%" cy="44%" r="72%">
+      <stop offset="0" stop-color="#172B67"/>
+      <stop offset="0.38" stop-color="#0B1640"/>
+      <stop offset="0.76" stop-color="#04091F"/>
+      <stop offset="1" stop-color="#01020B"/>
+    </radialGradient>
+    <radialGradient id="nebulaViolet" cx="22%" cy="18%" r="68%">
+      <stop offset="0" stop-color="#8D6BFF" stop-opacity="0.42"/>
+      <stop offset="0.32" stop-color="#4A4BFF" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#242CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaCyan" cx="86%" cy="78%" r="66%">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.25"/>
+      <stop offset="0.38" stop-color="#087DFF" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#087DFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#D9FFFF" stop-opacity="0.95"/>
+      <stop offset="0.16" stop-color="#70F2FF" stop-opacity="0.72"/>
+      <stop offset="0.48" stop-color="#4575FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3151FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet" cx="35%" cy="27%" r="74%">
+      <stop offset="0" stop-color="#3858B2"/>
+      <stop offset="0.38" stop-color="#172C70"/>
+      <stop offset="0.78" stop-color="#09143E"/>
+      <stop offset="1" stop-color="#03071E"/>
+    </radialGradient>
+    <linearGradient id="planetGlow" x1="150" y1="115" x2="500" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9FFFF" stop-opacity="0.9"/>
+      <stop offset="0.43" stop-color="#4A9FFF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#5360FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="orbitPrimary" x1="50" y1="300" x2="590" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C5CFF" stop-opacity="0.18"/>
+      <stop offset="0.25" stop-color="#5D9BFF" stop-opacity="0.74"/>
+      <stop offset="0.52" stop-color="#9CFFFF"/>
+      <stop offset="0.8" stop-color="#5D9BFF" stop-opacity="0.74"/>
+      <stop offset="1" stop-color="#6C5CFF" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="orbitSecondary" x1="90" y1="120" x2="550" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B276FF" stop-opacity="0.12"/>
+      <stop offset="0.5" stop-color="#55E9FF" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#B276FF" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="-32" y1="-21" x2="37" y2="23" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.27" stop-color="#D7F7FF"/>
+      <stop offset="0.62" stop-color="#9DBCF2"/>
+      <stop offset="1" stop-color="#4D69B4"/>
+    </linearGradient>
+    <linearGradient id="hullShade" x1="0" y1="-15" x2="0" y2="18" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FBFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5C76C1" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="engineTrail" x1="-39" y1="0" x2="-105" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FFFF"/>
+      <stop offset="0.25" stop-color="#5CFFFF" stop-opacity="0.95"/>
+      <stop offset="0.7" stop-color="#586BFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#586BFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="-12" x2="18" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FFFF"/>
+      <stop offset="0.35" stop-color="#55EFFF"/>
+      <stop offset="1" stop-color="#3261C9"/>
+    </linearGradient>
+    <filter id="largeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="mediumGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><circle cx="320" cy="320" r="309"/></clipPath>
+
+    <path id="primaryOrbit" d="M 58 320 A 262 132 0 1 0 582 320 A 262 132 0 1 0 58 320"/>
+    <path id="secondaryOrbit" d="M 112 320 A 208 246 0 1 0 528 320 A 208 246 0 1 0 112 320"/>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <circle cx="320" cy="320" r="309" fill="url(#space)"/>
+    <circle cx="320" cy="320" r="309" fill="url(#nebulaViolet)"/>
+    <circle cx="320" cy="320" r="309" fill="url(#nebulaCyan)"/>
+
+    <!-- distant star field -->
+    <g fill="#EFFCFF">
+      <circle cx="71" cy="87" r="2.1" opacity="0.78"/>
+      <circle cx="121" cy="184" r="1.3" opacity="0.5"/>
+      <circle cx="174" cy="65" r="1.5" opacity="0.85"/>
+      <circle cx="241" cy="113" r="2.4" opacity="0.7"/>
+      <circle cx="318" cy="58" r="1.4" opacity="0.62"/>
+      <circle cx="402" cy="94" r="1.8" opacity="0.82"/>
+      <circle cx="501" cy="76" r="1.2" opacity="0.62"/>
+      <circle cx="564" cy="168" r="2.2" opacity="0.75"/>
+      <circle cx="592" cy="278" r="1.3" opacity="0.6"/>
+      <circle cx="56" cy="274" r="1.4" opacity="0.72"/>
+      <circle cx="88" cy="439" r="2" opacity="0.68"/>
+      <circle cx="151" cy="548" r="1.2" opacity="0.58"/>
+      <circle cx="225" cy="591" r="1.8" opacity="0.82"/>
+      <circle cx="339" cy="568" r="1.1" opacity="0.6"/>
+      <circle cx="438" cy="596" r="2.1" opacity="0.74"/>
+      <circle cx="534" cy="512" r="1.5" opacity="0.86"/>
+      <circle cx="588" cy="424" r="1.1" opacity="0.6"/>
+      <circle cx="468" cy="221" r="1.25" opacity="0.76"/>
+      <circle cx="178" cy="372" r="1.1" opacity="0.6"/>
+    </g>
+    <g fill="#75F4FF" filter="url(#smallGlow)">
+      <circle cx="138" cy="118" r="1.8"/>
+      <circle cx="526" cy="120" r="1.6"/>
+      <circle cx="68" cy="359" r="1.7"/>
+      <circle cx="566" cy="487" r="1.6"/>
+      <circle cx="255" cy="536" r="1.4"/>
+    </g>
+
+    <!-- subtle orbital atmosphere -->
+    <ellipse cx="320" cy="320" rx="268" ry="138" fill="none" stroke="#315BC5" stroke-width="18" opacity="0.18" filter="url(#largeGlow)"/>
+    <ellipse cx="320" cy="320" rx="211" ry="249" fill="none" stroke="#7357FF" stroke-width="13" opacity="0.14" filter="url(#largeGlow)"/>
+
+    <!-- orbital paths -->
+    <use xlink:href="#secondaryOrbit" fill="none" stroke="#5D69DD" stroke-width="2" stroke-dasharray="5 13" opacity="0.72"/>
+    <use xlink:href="#secondaryOrbit" fill="none" stroke="url(#orbitSecondary)" stroke-width="1.4" opacity="0.82"/>
+    <use xlink:href="#primaryOrbit" fill="none" stroke="#1D377C" stroke-width="10" opacity="0.72" filter="url(#mediumGlow)"/>
+    <use xlink:href="#primaryOrbit" fill="none" stroke="url(#orbitPrimary)" stroke-width="3.4" opacity="0.96"/>
+    <path d="M 58 320 A 262 132 0 0 1 179 211" stroke="#B4FFFF" stroke-width="4" stroke-linecap="round" opacity="0.72" filter="url(#smallGlow)"/>
+
+    <!-- illuminated orbital core -->
+    <circle cx="320" cy="320" r="155" fill="url(#coreAura)" opacity="0.34" filter="url(#largeGlow)"/>
+    <circle cx="320" cy="320" r="91" fill="#071334" stroke="#3352A0" stroke-width="2"/>
+    <circle cx="320" cy="320" r="82" fill="url(#planet)" stroke="#75EFFF" stroke-opacity="0.45" stroke-width="2"/>
+    <ellipse cx="320" cy="320" rx="78" ry="25" fill="none" stroke="#5E9CFF" stroke-width="2" opacity="0.35" transform="rotate(-22 320 320)"/>
+    <ellipse cx="320" cy="320" rx="58" ry="18" fill="none" stroke="#89F8FF" stroke-width="1.5" opacity="0.4" transform="rotate(34 320 320)"/>
+    <path d="M274 292C292 271 326 265 356 278M278 354C305 370 337 371 362 353" stroke="url(#planetGlow)" stroke-width="8" stroke-linecap="round" opacity="0.54"/>
+    <circle cx="291" cy="288" r="5" fill="#94FFFF" opacity="0.74" filter="url(#smallGlow)"/>
+    <circle cx="355" cy="351" r="3.5" fill="#A98BFF" opacity="0.8" filter="url(#smallGlow)"/>
+    <circle cx="320" cy="320" r="12" fill="#52EFFF" opacity="0.32" filter="url(#mediumGlow)"/>
+    <circle cx="320" cy="320" r="6" fill="#D7FFFF" filter="url(#smallGlow)"/>
+    <circle cx="320" cy="320" r="2.5" fill="#FFFFFF"/>
+
+    <!-- small telemetry marks -->
+    <g stroke="#78F6FF" stroke-linecap="round" opacity="0.72">
+      <path d="M320 168v18M320 454v18M168 320h18M454 320h18" stroke-width="2"/>
+      <path d="M211 211l12 12M417 417l12 12M429 211l-12 12M223 417l-12 12" stroke-width="1.4"/>
+    </g>
+
+    <!-- animated shuttle on the primary orbit -->
+    <g>
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#primaryOrbit"/>
+      </animateMotion>
+      <g transform="scale(1.06)">
+        <!-- exhaust aura and trail -->
+        <path d="M-50 0L-122 0" stroke="#4F6EFF" stroke-width="18" stroke-linecap="round" opacity="0.2" filter="url(#largeGlow)"/>
+        <path d="M-42 0L-112 0" stroke="url(#engineTrail)" stroke-width="8" stroke-linecap="round" filter="url(#mediumGlow)"/>
+        <path d="M-43 0L-83 0" stroke="#E2FFFF" stroke-width="3" stroke-linecap="round" filter="url(#smallGlow)"/>
+
+        <!-- shuttle wings -->
+        <path d="M-20-12L-48-42L-38-8Z" fill="#5672C8" stroke="#BCEBFF" stroke-width="1.5"/>
+        <path d="M-20 12L-48 42L-38 8Z" fill="#425DB2" stroke="#A7E3FF" stroke-width="1.5"/>
+        <path d="M20-10L40-28L34-6Z" fill="#6B8CF1" stroke="#BDEBFF" stroke-width="1.2"/>
+        <path d="M20 10L40 28L34 6Z" fill="#536FD1" stroke="#A7E3FF" stroke-width="1.2"/>
+
+        <!-- main hull -->
+        <path d="M-51 0C-39-13-24-19-6-19H27C39-19 50-10 61 0C50 10 39 19 27 19H-6C-24 19-39 13-51 0Z" fill="url(#hull)" stroke="#E6FFFF" stroke-width="1.7"/>
+        <path d="M-10-17H28C39-17 47-10 54 0C47 10 39 17 28 17H-10Z" fill="url(#hullShade)" opacity="0.62"/>
+        <path d="M13-13C22-12 31-8 38-1L38 2C31 8 22 12 13 13L6 7L6-7Z" fill="url(#window)" stroke="#D2FFFF" stroke-width="1.2"/>
+        <path d="M17-9L31-3L22 4L10 2Z" fill="#E8FFFF" opacity="0.45"/>
+        <path d="M-7-15L-15 0L-7 15" stroke="#6B8DDF" stroke-width="2" opacity="0.8"/>
+        <path d="M42-7L55 0L42 7" stroke="#D9FFFF" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="-27" cy="-4" r="2" fill="#78FFFF"/>
+        <circle cx="-27" cy="4" r="2" fill="#8E7CFF"/>
+      </g>
+    </g>
+
+    <!-- foreground orbit glints -->
+    <circle cx="179" cy="211" r="5" fill="#C4FFFF" filter="url(#mediumGlow)"/>
+    <circle cx="179" cy="211" r="2" fill="#FFFFFF"/>
+    <circle cx="509" cy="429" r="3.2" fill="#AA9CFF" filter="url(#smallGlow)"/>
+
+    <circle cx="320" cy="320" r="308" stroke="#4967D2" stroke-width="4" opacity="0.66"/>
+    <circle cx="320" cy="320" r="300" stroke="#8FEFFF" stroke-width="1" opacity="0.18"/>
+  </g>
+</svg>
