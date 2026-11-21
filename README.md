@@ -10,7 +10,7 @@
 
 <img src="https://raw.githubusercontent.com/X4R1S3/baileys/main/assets/rolling-circle.svg" width="90" alt="X4R1S3 TECHNOLOGY rolling circle" />
 
-[![Version](https://img.shields.io/badge/version-2.20.1-00FFF0?style=for-the-badge&labelColor=07111F)](https://www.npmjs.com/package/@x4r1s3/baileys)
+[![Version](https://img.shields.io/badge/version-1.0.0-00FFF0?style=for-the-badge&labelColor=07111F)](https://www.npmjs.com/package/@x4r1s3/baileys)
 [![Developer X4R1S3](https://img.shields.io/badge/Developer-X4R1S3-B88CFF?style=for-the-badge&logo=telegram&labelColor=07111F)](https://t.me/X4R1S3)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D20-7CFFB2?style=for-the-badge&logo=node.js&logoColor=white&labelColor=07111F)](https://nodejs.org/)
 [![Powered by X4R1S3/baileys](https://img.shields.io/badge/powered%20by-X4R1S3%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=07111F)](https://www.npmjs.com/package/@x4r1s3/baileys)
@@ -65,7 +65,7 @@ The package is maintained by **X4R1S3** under the **X4R1S3 TECHNOLOGY** organiza
 | Property | Value |
 | --- | --- |
 | Package | `@x4r1s3/baileys` |
-| Version | `2.20.1` |
+| Version | `1.0.0` |
 | Runtime | Node.js 20 or newer |
 | Module format | ESM, with CommonJS compatibility where supported |
 | Type declarations | Included at `lib/index.d.ts` |
@@ -80,7 +80,7 @@ The package is maintained by **X4R1S3** under the **X4R1S3 TECHNOLOGY** organiza
 | Method | Command | Notes |
 | --- | --- | --- |
 | From npm | `npm install @x4r1s3/baileys` | Standard install when published under your organization |
-| From local archive | `npm install ./X4R1S3-baileys-2.20.1.tgz` | Place the `.tgz` beside your application |
+| From local archive | `npm install ./X4R1S3-baileys-1.0.0.tgz` | Place the `.tgz` beside your application |
 | Source audit (no scripts) | `npm install --ignore-scripts` | Skips install hooks for local review |
 
 Both npm and archive installs use the same import name:
@@ -929,6 +929,59 @@ await sock.sendMiniApp(jid, {
 ```
 
 The package also exports `BotCapabilityType`, `normalizeBotCapabilities`, `buildBotCapabilityMetadata`, and `buildBotRichResponse` for applications that need to construct compatible bot metadata.
+
+### Combined RichAI and AIRich responses
+
+`sendX4R1S3Message` can combine ordered RichAI sections with the package's other unified-response fields. This keeps text, tables, media, maps, and structured AIRich content in one message while preserving the order of the RichAI sections.
+
+```js
+await sock.sendX4R1S3Message(jid, {
+  sections: [
+    { type: 'text', value: 'Mission summary' },
+    { type: 'table', value: {
+      title: 'Telemetry',
+      headers: ['System', 'State'],
+      rows: [['Navigation', 'Nominal']]
+    } },
+    { type: 'codeBlock', value: { language: 'js', code: 'return status' } }
+  ],
+  richLabel: { text: 'X4R1S3 STATUS', variant: 'POSITIVE' }
+})
+```
+
+Embedded-screen tabs can also carry one or more native media items. Multiple media items are rendered as a horizontal strip inside the tab.
+
+```js
+await sock.sendX4R1S3Message(jid, {
+  embeddedScreen: {
+    title: 'Mission gallery',
+    tabs: [{
+      id: 'gallery',
+      tab_header: 'Images',
+      sections: [{
+        __typename: 'GenAIUnifiedResponseSection',
+        view_model: { __typename: 'GenAISingleLayoutViewModel', primitive: {
+          __typename: 'GenAITextPrimitive', text: 'Orbital systems'
+        }}
+      }],
+      media: [
+        { type: 'image', url: 'https://example.com/orbit-a.jpg' },
+        { type: 'image', url: 'https://example.com/orbit-b.jpg' }
+      ]
+    }]
+  }
+})
+```
+
+Newsletter statuses support push-to-talk voice notes in addition to text, images, and video. The account must have Channel Status publishing capability.
+
+```js
+await sock.sendNewsletterStatus('123456789@newsletter', {
+  audio: { url: './mission-update.ogg' },
+  ptt: true,
+  backgroundArgb: 0xff1e88e5
+})
+```
 
 
 ## New AIRich metadata helpers

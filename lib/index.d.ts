@@ -63,13 +63,17 @@ export interface StatusContent {
 export interface NewsletterStatusContent {
     text?: string;
     backgroundColor?: string | number;
+    backgroundArgb?: number;
     font?: StatusFont;
     image?: unknown;
     video?: unknown;
+    audio?: unknown;
+    ptt?: boolean;
     caption?: string;
     mimetype?: string;
     seconds?: number;
     contextInfo?: Record<string, unknown>;
+    messageContextInfo?: Record<string, unknown>;
     [key: string]: unknown;
 }
 
@@ -593,6 +597,7 @@ export interface X4R1S3EmbeddedScreenTab {
     tab_header?: string;
     title?: string;
     sections: Array<Record<string, unknown>>;
+    media?: RichMediaItem | string | Array<RichMediaItem | string>;
     step_entries?: unknown[];
 }
 export interface X4R1S3EmbeddedScreen extends Record<string, unknown> {
@@ -665,6 +670,20 @@ export interface RichAIResponseContent extends Record<string, unknown> {
     contentItems?: unknown;
 }
 export interface X4R1S3MessageContent extends Record<string, unknown> {
+    /** RichAI sections are composed in order and can be combined with other AIRich fields. */
+    sections?: Array<RichAIResponseSection | Record<string, unknown>>;
+    /** Already-composed RichAI submessages to append to the unified response. */
+    richResponse?: Array<Record<string, unknown>>;
+    list?: { title?: string; items?: unknown[]; headerText?: string; footer?: string };
+    codeBlock?: { code?: string; language?: string; title?: string; footer?: string };
+    latex?: RichAIResponseContent['latex'];
+    plain?: RichAIResponseContent['plain'];
+    text?: RichAIResponseContent['text'];
+    gridImage?: RichAIResponseContent['gridImage'];
+    inlineImage?: RichAIResponseContent['inlineImage'];
+    dynamic?: RichAIResponseContent['dynamic'];
+    map?: RichAIResponseContent['map'];
+    contentItems?: RichAIResponseContent['contentItems'];
     /** Exclusive A2UI mode routed to sendA2UIMessage; do not combine with AIRich sections. */
     a2ui?: A2UIMessageContent;
     table?: X4R1S3TableInput;
